@@ -7,9 +7,6 @@ gem 'rails', '4.1.6'
 #gem 'sqlite3'
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3', :group => 'development'
 # Use SCSS for stylesheets
-group :development, :test do
-  gem 'sqlite3'
-end
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
